@@ -51,5 +51,8 @@ def calculator():
                     print("Result: \n\033[31m{}\033[0m".format(result))
         else:
             print("Invalid choice. Please enter a valid option.")
+
+        while True:  # This loop ensures input is either yes or no
+            again = input("Do you want to try again? (yes/no): ")
 # Define calculator function
 # Loop until user opts to exit
