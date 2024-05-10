@@ -59,6 +59,7 @@ def calculator():
             elif again.lower() in ('no', 'n'):
                 print("\n\033[1;95mThank you!")
                 return
-
+            else:
+                print("Invalid choice. Please choose between yes or no.")
 # Define calculator function
 # Loop until user opts to exit
