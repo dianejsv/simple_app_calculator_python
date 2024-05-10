@@ -54,5 +54,11 @@ def calculator():
 
         while True:  # This loop ensures input is either yes or no
             again = input("Do you want to try again? (yes/no): ")
+            if again.lower() in ('yes', 'y'):
+                break
+            elif again.lower() in ('no', 'n'):
+                print("\n\033[1;95mThank you!")
+                return
+
 # Define calculator function
 # Loop until user opts to exit
