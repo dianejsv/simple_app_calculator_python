@@ -33,6 +33,7 @@ def calculator():
                 try:
                     first_number = float(input("Enter first number: "))
                     second_number = float(input("Enter second number: "))
-                    
+                    break
+                
 # Define calculator function
 # Loop until user opts to exit
