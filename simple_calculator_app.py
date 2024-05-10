@@ -61,5 +61,6 @@ def calculator():
                 return
             else:
                 print("Invalid choice. Please choose between yes or no.")
-# Define calculator function
-# Loop until user opts to exit
+
+
+calculator()
