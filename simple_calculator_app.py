@@ -39,5 +39,7 @@ def calculator():
 
             if choice_operation == "1":
                 print("\n\033[31mResult: {}\033[0m".format(add(first_number, second_number)))
+            elif choice_operation == '2':
+                print("\n\033[31mResult: {}\033[0m".format(subtract(first_number, second_number)))
 # Define calculator function
 # Loop until user opts to exit
