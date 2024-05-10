@@ -47,5 +47,7 @@ def calculator():
                 result = divide(first_number, second_number)
                 if isinstance(result, str):
                     print(result)
+                else:
+                    print("Result: \n\033[31m{}\033[0m".format(result))
 # Define calculator function
 # Loop until user opts to exit
