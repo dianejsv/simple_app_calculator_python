@@ -43,5 +43,7 @@ def calculator():
                 print("\n\033[31mResult: {}\033[0m".format(subtract(first_number, second_number)))
             elif choice_operation == '3':
                 print("\n\033[31mResult: {}\033[0m".format(multiply(first_number, second_number)))
+            elif choice_operation == '4':
+                result = divide(first_number, second_number)
 # Define calculator function
 # Loop until user opts to exit
