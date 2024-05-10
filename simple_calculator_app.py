@@ -26,6 +26,7 @@ def calculator():
         print("\033[0;36m2. Subtraction")
         print("\033[0;36m3. Multiplication")
         print("\033[0;36m4. Division")
-        
+
+        choice_operation = input("\n\033[0;34mEnter choice (1/2/3/4): ")
 # Define calculator function
 # Loop until user opts to exit
