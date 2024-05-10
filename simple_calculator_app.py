@@ -49,5 +49,7 @@ def calculator():
                     print(result)
                 else:
                     print("Result: \n\033[31m{}\033[0m".format(result))
+        else:
+            print("Invalid choice. Please enter a valid option.")
 # Define calculator function
 # Loop until user opts to exit
