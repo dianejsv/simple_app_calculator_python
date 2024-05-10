@@ -28,5 +28,9 @@ def calculator():
         print("\033[0;36m4. Division")
 
         choice_operation = input("\n\033[0;34mEnter choice (1/2/3/4): ")
+        if choice_operation in ("1", "2", "3", "4"):
+            while True:
+                first_number = float(input("Enter first number: "))
+                second_number = float(input("Enter second number: "))
 # Define calculator function
 # Loop until user opts to exit
